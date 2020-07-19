@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Qr Code Scanner</string>
+    <string name="scan_your_qr_code">Scan Your Qr Code</string>
+    <string name="email">Email</string>
+    <string name="enter_the_subject_here">Enter the subject here</string>
+    <string name="enter_the_body_message_here">Enter the body message here</string>
+    <string name="send_email">Send email</string>
+    <string name="hello_welcome_to_the_qr_code_scanner">Hello, Welcome to the QR code scanner.</string>
+    <string name="please_wait">Please Wait.....</string>
+</resources>
