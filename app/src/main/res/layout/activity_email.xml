@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/barcodebg"
     tools:context=".EmailActivity">
 
     <TextView
@@ -11,6 +12,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/txtEmailAddress"
         android:text="@string/email"
+        android:textColor="#ffff"
         android:padding="10dp"
         android:fontFamily="monospace"
         android:layout_margin="10dp"
@@ -22,6 +24,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtEmailAddress"
         android:hint="@string/enter_the_subject_here"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textColorHint="#ffff"
         android:background="@drawable/stroke_box"
         android:gravity="center"
         android:layout_margin="20dp"
@@ -35,6 +40,8 @@
         android:hint="@string/enter_the_body_message_here"
         android:lines="10"
         android:layout_margin="20dp"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
         android:background="@drawable/stroke_box"
         android:gravity="center"
         android:padding="10dp"/>
